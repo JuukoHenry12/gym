@@ -21,7 +21,7 @@ const RightArrow=()=>{
     </Typography>
   )
 }
-const Horizontalscrollbar = ({data,bodyPart,setbodyPart}) => {
+const Horizontalscrollbar = ({data,bodyPart,setBodyPart}) => {
   return (
     <ScrollMenu 
     LeftArrow={LeftArrow}
@@ -36,7 +36,7 @@ const Horizontalscrollbar = ({data,bodyPart,setbodyPart}) => {
             m="0 40px"
            >
             <BodyPart item={item} bodyPart={bodyPart}
-              setbodyPart={setbodyPart}/>        
+              setBodyPart={setBodyPart}/>        
            </Box> 
           )
           

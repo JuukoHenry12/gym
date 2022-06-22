@@ -27,7 +27,7 @@ const BodyPart = ({item,setBodyPart,BodyPart}) => {
      }
      onClick={()=>{
       setBodyPart(item);
-      window.scrollTop({top:180})
+      window.scrollTo({top:180})
      }}
     >
       <img src={Icon} alt="dubmbell"
