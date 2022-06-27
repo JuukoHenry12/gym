@@ -3,7 +3,7 @@ import './App.css'
 import {Route,Routes} from 'react-router-dom';
 import {Box} from '@mui/material';
 import './App.css'
-import ExerciseDetail from './Pages/ExerciseDetail';
+import ExerciseDetail  from './Pages/ExerciseDetail';
 import Home from './Pages/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
